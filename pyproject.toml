@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "dz-5"
+version = "0.1.0"
+description = ""
+authors = ["Max"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiohttp = "^3.9.1"
+aiofile = "^3.8.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
